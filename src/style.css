@@ -1,20 +1,28 @@
-body {
-text-align:center;
+nav
+{
+  background-color: white;
 }
 
-#navbar {
-
-  width: 100%;
-  background-color: #767676;
+#mainpage
+{
+  margin: 60px;
 }
+
+body
+{
+  text-align:center;
+}
+
 nav ul {
-  margin: 0px;
+  margin: 50px;
   padding: 5px 0px 5px 30px;
 }
+
 nav li {
   display: inline;
   margin-right: 20px;
 }
+
 a {
   text-decoration: none;
 }
