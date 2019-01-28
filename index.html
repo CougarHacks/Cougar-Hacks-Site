@@ -5,9 +5,12 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
@@ -62,14 +65,24 @@
     <div id="FAQ">
       <h3>Frequently Asked Questions</h3>
 
+      <!-- Testing out bootstrap btn-group... -->
+      <!--
       <ul class="list-inline">
         <li class="list-inline-item">Event</li>
         <li class="list-inline-item">Applications</li>
         <li class="list-inline-item">Volunteers and Mentors</li>
         <li class="list-inline-item">Other</li>
       </ul>
+      -->
 
-      <ul class="list-unstyled">
+      <div class="btn-group btn-group-lg" role="group" >
+        <button type="button" class="btn btn-primary" onclick="btnEvent()"> Event </button>
+        <button type="button" class="btn btn-primary" onclick="btnApps()"> Applications </button>
+        <button type="button" class="btn btn-primary" onclick="btnVol()"> Volunteers and Mentors </button>
+        <button type="button" class="btn btn-primary" onclick="btnOthers()"> Others </button>
+      </div>
+
+      <ul class="list-unstyled" id="inf-event">
         <li>
           <h5>What is a hackathon?</h5>
           <p>TBD</p>
@@ -104,7 +117,7 @@
         </li>
       </ul>
 
-      <ul class="list-unstyled">
+      <ul class="list-unstyled" id="inf-apps">
         <li>
           <h5>Where do I apply?</h5>
           <p>TBD</p>
@@ -127,7 +140,7 @@
         </li>
       </ul>
 
-      <ul class="list-unstyled">
+      <ul class="list-unstyled" id="inf-vol">
         <li>
           <h5>Where do I apply to volunteer/mentor?</h5>
           <p>TBD</p>
@@ -139,7 +152,7 @@
         </li>
       </ul>
 
-      <ul class="list-unstyled">
+      <ul class="list-unstyled" id="inf-others">
         <li>
           <h5>What if my question isn't listed here?</h5>
           <p>You can contact us here</p>
