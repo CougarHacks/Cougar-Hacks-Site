@@ -22,7 +22,12 @@ class Site extends React.Component {
                         </div>
                         <div id="About">
                             <h3>About</h3>
-                            <p> Cougar Hacks is the premiere hackathon event in North County San Diego</p>
+                            <p> Cougar hacks is a hackathon event in North County San Diego supported by the students of
+                                Cal State San Marcos and MLH. In this 24-Hour event, participants will be competing in
+                                several categories on the development of software/hardware hacks. We wish to extend an
+                                invite to any and all college students around the San Diego area. We wish to see you there,
+                                and happy hacking!
+                            </p>
                         </div>
                         <div id="Schedule">
                             <h3>Schedule</h3>
@@ -81,23 +86,25 @@ class Site extends React.Component {
                             <ul className="list-unstyled" id="inf-event">
                                 <li>
                                     <h5>What is a hackathon?</h5>
-                                    <p>TBD</p>
+                                    <p>A hackathon is an invention marathon. Students come together to build cool
+                                        software & hardware hacks over 24-48 hours. It's very beginner friendly</p>
                                 </li>
                                 <li>
                                     <h5>Who can attend?</h5>
-                                    <p>TBD</p>
+                                    <p>Only students who are currently enrolled at a college/university or
+                                        have graduated within the past 12 months are eligible to attend.</p>
                                 </li>
                                 <li>
                                     <h5>When should I show up and when should I leave?</h5>
-                                    <p>TBD</p>
+                                    <p>The hackathon starts on Saturday (April 27th) at 9:00 am to Sunday (April 28th) 12:00 pm.</p>
                                 </li>
                                 <li>
                                     <h5>What should I bring?</h5>
-                                    <p>TBD</p>
+                                    <p>Expect to bring a computer, a sleeping bag, and some personal hygiene items!</p>
                                 </li>
                                 <li>
                                     <h5>Do I have to pay to get in?</h5>
-                                    <p>TBD</p>
+                                    <p>Nothing. Attending a hackathon is free!</p>
                                 </li>
                                 <li>
                                     <h5>Do I have to pay for parking?</h5>
@@ -105,11 +112,11 @@ class Site extends React.Component {
                                 </li>
                                 <li>
                                     <h5>Will food be provided?</h5>
-                                    <p>TBD</p>
+                                    <p>Food will be provided.</p>
                                 </li>
                                 <li>
                                     <h5>Are there any rules?</h5>
-                                    <p>TBD</p>
+                                    <p>Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf)</p>
                                 </li>
                             </ul>
                             <ul className="list-unstyled" id="inf-apps">
@@ -119,7 +126,7 @@ class Site extends React.Component {
                                 </li>
                                 <li>
                                     <h5>When is the deadline to apply?</h5>
-                                    <p>TBD</p>
+                                    <p>The deadline to apply for the hackathon is April 7th. </p>
                                 </li>
                                 <li>
                                     <h5>What if I don't have a team?</h5>
@@ -127,7 +134,7 @@ class Site extends React.Component {
                                 </li>
                                 <li>
                                     <h5>When will I be notified when I get accepted?</h5>
-                                    <p>TBD</p>
+                                    <p>Expect to be notified a 1 - 2 weeks before the hackathon.</p>
                                 </li>
                                 <li>
                                     <h5>Help! One of my team members didn't get accepted! What should I do?</h5>
@@ -141,13 +148,13 @@ class Site extends React.Component {
                                 </li>
                                 <li>
                                     <h5>When is the deadline to apply for volunteering/mentoring?</h5>
-                                    <p>TBD</p>
+                                    <p>The deadline for applying to be a volunteer/mentor is April 18th.</p>
                                 </li>
                             </ul>
                             <ul className="list-unstyled" id="inf-others">
                                 <li>
                                     <h5>What if my question isn't listed here?</h5>
-                                    <p>You can contact us here</p>
+                                    <p>You can contact us here!</p>
                                 </li>
                             </ul>
                         </div>
